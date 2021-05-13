@@ -6,9 +6,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" fx:id="anchor2" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.WhereGoController">
+<AnchorPane id="AnchorPane" fx:id="anchor2" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.WhereGo2Controller">
    <children>
-      <ScrollPane hvalue="0.45" layoutY="108.0" pannable="true" prefHeight="620.0" prefWidth="412.0">
+      <ScrollPane hvalue="0.45" layoutY="222.0" pannable="true" prefHeight="506.0" prefWidth="412.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="798.0">
                <children>
@@ -29,6 +29,11 @@
             </AnchorPane>
         </content>
       </ScrollPane>
+      <ImageView fitHeight="143.0" fitWidth="412.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/WhereGo/Settings2.png" />
+         </image>
+      </ImageView>
       <ImageView fitHeight="144.0" fitWidth="412.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../res/WhereGo/top%20bar%203.png" />

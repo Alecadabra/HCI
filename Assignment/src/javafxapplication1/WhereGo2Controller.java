@@ -19,7 +19,7 @@ import javafx.scene.layout.AnchorPane;
  *
  * @author student
  */
-public class WhereGoController implements Initializable {
+public class WhereGo2Controller implements Initializable {
     
     @FXML
     private AnchorPane anchor2;
@@ -30,8 +30,9 @@ public class WhereGoController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }
+    }    
     
+        
     @FXML
     public void onRouteClicked(ActionEvent event) {
         
@@ -39,8 +40,7 @@ public class WhereGoController implements Initializable {
     
     @FXML
     public void onDropdownClicked(ActionEvent event) throws IOException {
-        AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo2.fxml"));
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo.fxml"));
         this.anchor2.getChildren().setAll(newPane);
     }
-    
 }

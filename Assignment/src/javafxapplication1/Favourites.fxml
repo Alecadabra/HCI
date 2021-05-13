@@ -6,7 +6,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FavouritesController">
+<AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FavouritesController">
    <children>
       <ScrollPane hbarPolicy="NEVER" layoutY="53.0" prefHeight="670.0" prefWidth="405.0">
         <content>

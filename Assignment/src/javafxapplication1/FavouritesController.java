@@ -10,9 +10,11 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.layout.AnchorPane;
 
 /**
  * FXML Controller class
@@ -20,6 +22,9 @@ import javafx.scene.image.ImageView;
  * @author student
  */
 public class FavouritesController implements Initializable {
+    
+    @FXML
+    private AnchorPane anchor;
 
     /**
      * Initializes the controller class.
@@ -31,7 +36,7 @@ public class FavouritesController implements Initializable {
     
     @FXML
     public void onPlacesClicked(ActionEvent event) throws IOException {
-        
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo.fxml"));
+        this.anchor.getChildren().setAll(newPane);
     }
-    
 }

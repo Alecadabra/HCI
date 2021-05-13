@@ -7,16 +7,16 @@
 
 <AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.WhereGoController">
    <children>
-      <ScrollPane layoutY="130.0" prefHeight="598.0" prefWidth="412.0">
+      <ScrollPane hvalue="0.45" layoutY="108.0" pannable="true" prefHeight="620.0" prefWidth="412.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="558.0" prefWidth="1032.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="798.0">
                <children>
-                  <ImageView fitHeight="554.0" fitWidth="1033.0" pickOnBounds="true">
+                  <ImageView fitHeight="598.0" fitWidth="799.0" pickOnBounds="true">
                      <image>
                         <Image url="@../res/WhereGo/bg.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="526.0" fitWidth="786.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="578.0" fitWidth="796.0" layoutX="2.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../res/WhereGo/scrollable.png" />
                      </image>
@@ -25,7 +25,7 @@
             </AnchorPane>
         </content>
       </ScrollPane>
-      <ImageView fitHeight="145.0" fitWidth="406.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="144.0" fitWidth="412.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../res/WhereGo/top%20bar%203.png" />
          </image>

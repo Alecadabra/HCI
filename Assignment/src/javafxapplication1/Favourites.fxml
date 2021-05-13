@@ -8,21 +8,22 @@
 
 <AnchorPane id="AnchorPane" fx:id="anchor" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FavouritesController">
    <children>
-      <ScrollPane hbarPolicy="NEVER" layoutY="53.0" prefHeight="670.0" prefWidth="405.0">
+      <ScrollPane hbarPolicy="NEVER" layoutY="53.0" pannable="true" prefHeight="670.0" prefWidth="405.0" style="-fx-background-color: transparent;">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="704.0" prefWidth="405.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="704.0" prefWidth="405.0" style="-fx-background-color: transparent;">
                <children>
-                  <ImageView fitHeight="706.0" fitWidth="444.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="710.0" fitWidth="405.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../res/Favourites/bg.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="706.0" fitWidth="405.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="670.0" fitWidth="387.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../res/Favourites/list%20only.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="12.0" layoutY="64.0" mnemonicParsing="false" onAction="#onPlacesClicked" prefHeight="152.0" prefWidth="367.0" style="-fx-background-color: transparent;" />
+                  <Button layoutX="12.0" layoutY="64.0" mnemonicParsing="false" onAction="#onPlacesClicked" prefHeight="140.0" prefWidth="359.0" style="-fx-background-color: transparent;" />
+                  <Button layoutX="14.0" layoutY="372.0" mnemonicParsing="false" onAction="#onPlacesClicked" prefHeight="66.0" prefWidth="356.0" style="-fx-background-color: transparent;" />
                </children>
             </AnchorPane>
         </content>

@@ -35,5 +35,6 @@
          </image>
       </ImageView>
       <Button layoutX="336.0" layoutY="65.0" mnemonicParsing="false" onAction="#onDropdownClicked" prefHeight="58.0" prefWidth="62.0" style="-fx-background-color: transparent;" />
+      <Button layoutY="1.0" mnemonicParsing="false" onAction="#onHamburgerPressed" prefHeight="58.0" prefWidth="77.0" style="-fx-background-color: transparent;" />
    </children>
 </AnchorPane>

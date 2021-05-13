@@ -19,22 +19,28 @@ import javafx.scene.layout.AnchorPane;
  *
  * @author student
  */
-public class JourneyController implements Initializable {
-    
-    @FXML
-    private AnchorPane anchor3;
+public class WhereGoHamburgerController implements Initializable {
 
+    @FXML
+    private AnchorPane anchor;
+    
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }
-    
+    }    
+
     @FXML
-    public void onBackPressed(ActionEvent event) throws IOException {
+    void onExitHamburger(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo.fxml"));
-        this.anchor3.getChildren().setAll(newPane);
+        this.anchor.getChildren().setAll(newPane);
+    }
+
+    @FXML
+    void onFavouritesPressed(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Favourites.fxml"));
+        this.anchor.getChildren().setAll(newPane);
     }
 }

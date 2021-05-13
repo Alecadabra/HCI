@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.JourneyController">
-    
+
+<AnchorPane id="AnchorPane" fx:id="anchor3" prefHeight="720.0" prefWidth="405.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="javafxapplication1.JourneyController">
+   <children>
+      <ScrollPane hbarPolicy="NEVER" hvalue="0.26" pannable="true" prefHeight="471.0" prefWidth="405.0" vbarPolicy="NEVER" vvalue="0.51">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="649.0" prefWidth="881.0">
+               <children>
+                  <ImageView fitHeight="635.0" fitWidth="864.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/Journey/Map.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ScrollPane hvalue="0.48" layoutY="484.0" pannable="true" prefHeight="236.0" prefWidth="405.0" vbarPolicy="NEVER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="210.0" prefWidth="638.0">
+               <children>
+                  <ImageView fitHeight="217.0" fitWidth="648.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../res/Journey/route.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <ImageView fitHeight="91.0" fitWidth="405.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/Journey/bottom.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="111.0" fitWidth="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/Journey/top.png" />
+         </image>
+      </ImageView>
+      <Button layoutY="1.0" mnemonicParsing="false" onAction="#onBackPressed" prefHeight="82.0" prefWidth="80.0" style="-fx-background-color: transparent;" />
+   </children>
 </AnchorPane>

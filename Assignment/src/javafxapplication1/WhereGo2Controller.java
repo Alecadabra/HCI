@@ -34,13 +34,21 @@ public class WhereGo2Controller implements Initializable {
     
         
     @FXML
-    public void onRouteClicked(ActionEvent event) {
-        
+    public void onRouteClicked(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("Journey.fxml"));
+        this.anchor2.getChildren().setAll(newPane);
     }
     
     @FXML
     public void onDropdownClicked(ActionEvent event) throws IOException {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo.fxml"));
+        this.anchor2.getChildren().setAll(newPane);
+    }
+    
+        
+    @FXML
+    void onHamburgerPressed(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGoHamburger.fxml"));
         this.anchor2.getChildren().setAll(newPane);
     }
 }

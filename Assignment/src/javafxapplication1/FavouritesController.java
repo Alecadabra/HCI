@@ -12,8 +12,6 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
 /**
@@ -39,4 +37,17 @@ public class FavouritesController implements Initializable {
         AnchorPane newPane = FXMLLoader.load(getClass().getResource("WhereGo.fxml"));
         this.anchor.getChildren().setAll(newPane);
     }
+    
+    @FXML
+    public void onHamburgerPressed(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("HamburgerFavourites.fxml"));
+        this.anchor.getChildren().setAll(newPane);
+    }
+    
+    @FXML
+    public void onEditPressed(ActionEvent event) throws IOException {
+        AnchorPane newPane = FXMLLoader.load(getClass().getResource("FavouritesEdit.fxml"));
+        this.anchor.getChildren().setAll(newPane);
+    }
+    
 }

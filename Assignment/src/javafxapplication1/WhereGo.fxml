@@ -8,7 +8,7 @@
 
 <AnchorPane id="AnchorPane" fx:id="anchor2" prefHeight="720.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.WhereGoController">
    <children>
-      <ScrollPane hvalue="0.45" layoutY="108.0" pannable="true" prefHeight="620.0" prefWidth="412.0">
+      <ScrollPane hvalue="0.23" layoutY="108.0" pannable="true" prefHeight="620.0" prefWidth="412.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="798.0">
                <children>
@@ -17,14 +17,14 @@
                         <Image url="@../res/WhereGo/bg.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="578.0" fitWidth="796.0" layoutX="2.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="411.0" fitWidth="796.0" layoutX="2.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../res/WhereGo/scrollable.png" />
                      </image>
                   </ImageView>
-                  <Button layoutX="275.0" layoutY="120.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="108.0" prefWidth="208.0" style="-fx-background-color: transparent;" />
-                  <Button layoutX="235.0" layoutY="286.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="108.0" prefWidth="342.0" style="-fx-background-color: transparent;" />
-                  <Button layoutX="257.0" layoutY="482.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="108.0" prefWidth="352.0" style="-fx-background-color: transparent;" />
+                  <Button layoutX="198.0" layoutY="87.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="87.0" prefWidth="152.0" style="-fx-background-color: transparent;" />
+                  <Button layoutX="171.0" layoutY="206.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="81.0" prefWidth="250.0" style="-fx-background-color: transparent;" />
+                  <Button layoutX="182.0" layoutY="348.0" mnemonicParsing="false" onAction="#onRouteClicked" prefHeight="80.0" prefWidth="255.0" style="-fx-background-color: transparent;" />
                </children>
             </AnchorPane>
         </content>

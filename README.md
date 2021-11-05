@@ -69,6 +69,8 @@ Part of my Computer Science degree at Curtin University. My final mark was 88%.
   </tbody>
 </table>
 
+**Syllabus**
+
 > An introduction to human computer interfaces, including the motivation and
 contexts for using these. The class teaches a process for user centred
 development as well as different measures for evaluation and models that inform

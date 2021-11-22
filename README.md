@@ -1,6 +1,6 @@
-# Human Computer Interface (Curtin University 2021)
+# Human Computer Interface
 
-Part of my Computer Science degree at Curtin University. My final mark was 88%.
+Part of my Computer Science degree at Curtin University in 2021. My final mark was 88%.
 
 <table>
   <thead>
